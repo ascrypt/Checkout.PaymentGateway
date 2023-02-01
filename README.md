@@ -58,7 +58,7 @@ Default port for the application is `2600` and swagger will be available on `htt
 Postman collection file in the solution is available and the file name is : `Payment Gateway.postman_collection.json` and can be imported to Postman to test the endpoints.
 
 # Project Dependencies diagram
-![](C:\Users\Afshin\Desktop\Checkout-pg-diagram.png)
+![img](http://i.imgur.com/yB7GEyT.png)
 
 
 # API endpoints sample requests and responses
