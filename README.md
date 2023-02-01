@@ -173,14 +173,14 @@ This is occurs when you are being rate limited based on your client.
 ## Authentication
 `X-Api-Key` should be added to the header of the requests. The key is defined in the `appsettings.json` file.
 
-The key is :
+The defined key is :
 
 `pgH7QzFHJx4w46fI~5Uzi4RvtTwlEXp`
 
 To use this in Swagger, simply click the "Authorize" button and insert it before calling endpoints.
 
 ## API Client Rate Limiting
-I have implemented client based rate limiting into the app using the `AspNetCoreRateLimiting` package and used the Api Keys as clients.
+I used .net 7 embeded rate limiting feature which can be configured from program.cs.
 
 ## Logging
 For Logging, I used Serilog and by default the log files writes to console.
