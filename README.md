@@ -140,7 +140,6 @@ curl -X 'GET' \
 ```
 
 
-
 **Sample Response**:
 
 **Success (200)**:
@@ -184,10 +183,7 @@ To use this in Swagger, simply click the "Authorize" button and insert it before
 I have implemented client based rate limiting into the app using the `AspNetCoreRateLimiting` package and used the Api Keys as clients.
 
 ## Logging
-I have added `SeriLog` for structured file logging.
-The settings can be changed through the appsettings file.
-
-By default the log files can be found in the /Logs folder
+For Logging, I used Serilog and by default the log files writes to console.
 
 ## Containerization (Docker)
 
